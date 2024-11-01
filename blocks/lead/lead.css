@@ -1,0 +1,13 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+    padding: 0 10%; 
+}
+@media (max-width: 768px) {
+    .lead {
+        padding: 0; 
+    }
+}

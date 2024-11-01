@@ -1,0 +1,15 @@
+.intro__list{
+    margin: 0;
+    list-style: none;
+    color: white;
+    grid-column: 1; 
+    font-size: 0.8rem; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .intro__list {
+        font-size: 0.5rem; 
+    }
+}

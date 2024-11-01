@@ -1,0 +1,11 @@
+.intro{
+    margin: 3% 10%;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 1.5rem; 
+}
+@media (max-width: 768px) {
+    .intro {
+        padding: 0 1%; 
+    }
+}

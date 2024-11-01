@@ -1,0 +1,8 @@
+.lead__images-container{
+    margin: 0;
+    margin-top: 2%;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    position: relative; 
+    width: 100%; 
+}

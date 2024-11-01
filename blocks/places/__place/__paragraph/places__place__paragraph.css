@@ -1,0 +1,22 @@
+.places__place__paragraph{
+    margin: 0;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    align-self: start;
+    justify-self: start;
+}
+@media (max-width: 1023px) {
+    .places__place__paragraph {
+        font-size: 1rem;
+        line-height: 1.6;
+        padding: 0 1rem;
+    }
+  }
+@media (max-width: 767px) {
+    .places__place__paragraph {
+      padding-left: 1rem;
+    }
+}
